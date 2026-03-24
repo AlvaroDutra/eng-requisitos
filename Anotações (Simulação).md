@@ -1,6 +1,6 @@
-01. Roteiro com Anotações (Simulação da Entrevista)
+# Anotações (Simulação da Entrevista)
 
-Aqui estão os pontos principais capturados durante a conversa com a Maria:
+Aqui estão os pontos principais identificados durante a conversa com a Maria:
 
     Rapport: Iniciamos falando sobre os 15 anos dela na instituição. Ela se orgulha muito da organização, mas admite cansaço.
 
@@ -10,10 +10,11 @@ Aqui estão os pontos principais capturados durante a conversa com a Maria:
 
     Comunicação não-verbal: Ela cruzou os braços ao falar de "abandonar as planilhas", indicando medo de perder o histórico.
 
-02. Lista de Requisitos Identificados
+## Lista de Requisitos Identificados
 
 Após a simulação, filtramos o que a Maria realmente precisa:
-Requisitos Funcionais (RF)
+
+### Requisitos Funcionais (RF)
 
     RF01: O sistema deve permitir a montagem da grade horária de forma visual (drag-and-drop).
 
@@ -23,7 +24,7 @@ Requisitos Funcionais (RF)
 
     RF04: O sistema deve calcular automaticamente a média final baseada nas fórmulas de avaliação do curso.
 
-Requisitos Não-Funcionais (RNF)
+### Requisitos Não-Funcionais (RNF)
 
     RNF01: Interface intuitiva (baixa curva de aprendizado para usuários acostumados com tabelas).
 
@@ -31,7 +32,7 @@ Requisitos Não-Funcionais (RNF)
 
     RNF03: Segurança de dados: apenas a coordenadora e a secretaria podem editar notas após o fechamento do período.
 
-Regras de Negócio (RN)
+### Regras de Negócio (RN)
 
     RN01: Um professor não pode ser alocado em duas disciplinas no mesmo horário.
 
@@ -39,8 +40,8 @@ Regras de Negócio (RN)
 
     RN03: Alunos com frequência inferior a 75% devem ser sinalizados automaticamente como reprovados.
 
-03. Reflexão sobre a Condução
+## Reflexão
 
-    O que funcionou bem: O uso das técnicas de sondagem foi essencial. Quando a Maria deu respostas vagas como "é complicado", o uso do eco ("Complicado em que sentido?") abriu as portas para entender que o problema real era a falta de comunicação com os professores.
+    O que funcionou bem: O uso das técnicas de sondagem foram muito importantes. Quando a Maria deu respostas vagas como "é complicado", o uso do eco ("Complicado em que sentido?") ajudou a entender que o problema real era a falta de comunicação com os professores.
 
-    O que poderia melhorar: Percebi que algumas perguntas do roteiro original eram um pouco longas. Na próxima, farei perguntas mais curtas para deixar o entrevistado falar mais tempo. Também notei que a Maria precisa de garantias visuais (protótipos) para confiar que o sistema não vai "apagar" os 15 anos de dados dela.
+    O que poderia melhorar: Após reavaliar as perguntas do roteiro original, percebos que elas eram um pouco longas. Na próxima, faremos perguntas mais curtas para deixar o entrevistado falar mais tempo. Também notamos que a Maria precisa de garantias visuais (protótipos) para confiar que o sistema será útil e não desperdiçar os 15 anos de experiência dela.
